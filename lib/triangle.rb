@@ -27,15 +27,7 @@ class Triangle
     [a, b, c].each { |s| real_triangle << false if s <= 0 }
     raise TriangleError if real_triangle.include?(false)
   end
-  
-  def no_Size
-    if a == nil
-      return nil
-    elsif b == nil
-      return nil
-    elsif c==nil
-    return nil
-  end
+
   end
 end
 
