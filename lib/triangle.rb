@@ -31,7 +31,11 @@ class Triangle
   def no_Size
     if a == nil
       return nil
-    elsif
+    elsif b == nil
+      return nil
+    elsif c==nil
+    return nil
+  end
   end
 end
 
